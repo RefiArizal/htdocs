@@ -1,0 +1,244 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("../fonts/poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url("../fonts/poppins/Poppins-Bold.ttf");
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(241, 241, 241, 0.884);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* .jumbotron {
+    width: 83%;
+    background-color: wheat;
+
+} */
+.badan {
+    border-radius: 5px;
+    /* border: 1px solid #000; */
+    margin-bottom: 10px;
+    width: 83%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+div.halaman {
+    text-align: center;
+    padding: 30px 20px;
+}
+table thead {
+    color: #fff;
+}
+
+/* hero */
+
+#hero {
+    width: 100%;
+    height: 85vh;
+    /* background-image: linear-gradient(to left, #30968a75, #fdece815 , #30968a); */
+    background-image: linear-gradient(to right, #ffffff, #fff, #30968ab9);
+}
+
+#hero .container {
+    padding-top: 72px;
+}
+
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #30968a;
+    font-family: poppins-bold;
+}
+
+#hero h5 {
+    color: #30968abe;
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-family: poppins-regular;
+}
+
+@media (max-width: 991px) {
+    #hero {
+        height: 100vh;
+        text-align: center;
+    }
+    #hero .animated {
+        -webkit-animation: none;
+        animation: none;
+    }
+    #hero .hero-img {
+        text-align: center;
+    }
+    #hero .hero-img img {
+        width: 50%;
+    }
+}
+
+/* end hero */
+
+/* struktur organisasi */
+
+h2{
+color: #30968a;
+}
+
+.team h2,h4 {
+     color: #30968a;
+}
+
+.team {
+    /* background-color: rgba(241, 241, 241, 0.884); */
+    /* background-image: linear-gradient(to bottom , #ffffff,#fff,#30968a ); */
+    background-image: linear-gradient(to bottom, #ffffff, #fff, #30968ab9);
+}
+
+.team .anggota {
+    position: relative;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.team .anggota .pic {
+    overflow: hidden;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.team .anggota .pic img {
+    transition: ease-in-out 0.3s;
+}
+
+.team .anggota:hover {
+    transform: translateY(-10px);
+}
+
+.team .anggota .anggota-info {
+    padding-left: 30px;
+}
+
+.team .anggota h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #30968a;
+}
+
+.team .anggota span {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}
+
+.team .anggota span::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #cbd6e9;
+    bottom: 0;
+    left: 0;
+}
+
+.team .anggota p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+/* end struktur organisasi */
+
+/* Visi misi */
+.visi h2{
+     color: #30968a;
+}
+
+.visi {
+    /* background-image: linear-gradient(to bottom,#ffffff , #30968a44); */
+    background-image: linear-gradient(to bottom, #ffffffe5, #fff, #30968ab9);
+
+    /* height: 70vh; */
+}
+.visi ol li,
+p {
+    padding: 5px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.visi .vismis {
+    /* position: relative; */
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.visi .vismis:hover {
+    transform: translateY(-10px);
+}
+
+.visi .vismis .vismis-info {
+    padding-left: 30px;
+}
+
+.visi .vismis h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+   
+    color: #30968a;
+    text-align: center;
+}
+
+.visi .vismis span {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}
+
+.visi .vismis span::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #cbd6e9;
+    bottom: 0;
+    left: 0;
+}
+
+.visi .vismis p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+/* Artikel */
+#artikel h2{
+     color: #30968a;
+}
+#artikel {
+    background-image: linear-gradient(to right, #ffffff, #fff, #30968ab9);
+}
+
